@@ -1,5 +1,5 @@
-# SATySFi-Fonts-Theano
-[SATySFi](https://github.com/gfngfn/SATySFi) Font Library with [Satyrographos](https://github.com/na4zagin3/satyrographos): [Theano Classical Fonts](https://github.com/akryukov/theano)
+# SATySFi-Fonts-Junicode
+[SATySFi](https://github.com/gfngfn/SATySFi) Font Library with [Satyrographos](https://github.com/na4zagin3/satyrographos): [Junicode](https://junicode.sourceforge.io)
 
 To use this font, please install this package followed by `satyrographos install`.
 
@@ -7,10 +7,10 @@ To use this font, please install this package followed by `satyrographos install
 ### Install SATySFi & Satyrographos
 If you don't have them, please install them with this [instruction](https://github.com/na4zagin3/satyrographos).
 
-### Install SATySFi-Fonts-Theano
+### Install SATySFi-Fonts-Junicode
+
 ```sh
-$ git pin add "git+https://github.com/na4zagin3/SATySFi-fonts-theano.git"
-$ opam install satysfi-fonts-theano
+$ opam install satysfi-fonts-junicode
 $ satyrographos install
 ```
 
