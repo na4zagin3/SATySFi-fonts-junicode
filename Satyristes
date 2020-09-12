@@ -1,0 +1,21 @@
+(version 0.0.2)
+(library
+  (name "fonts-junicode")
+  (version "2.0")
+  (sources
+    ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
+     (font "Junicode-Bold.ttf" "junicode/Junicode-Bold.ttf")
+     (font "Junicode-BoldItalic.ttf" "junicode/Junicode-BoldItalic.ttf")
+     (font "Junicode-Italic.ttf" "junicode/Junicode-Italic.ttf")
+     (font "Junicode.ttf" "junicode/Junicode.ttf")
+     (font "FoulisGreek.ttf" "junicode/FoulisGreek.ttf")))
+  (opam "satysfi-fonts-junicode.opam"))
+(libraryDoc
+  (name "fonts-junicode-doc")
+  (version "2.0")
+  (build
+    ((satysfi "doc-fonts-junicode-ja.saty" "-o" "doc-fonts-junicode-ja.pdf")))
+  (sources
+    ((doc "doc-fonts-junicode-ja.pdf" "./doc-fonts-junicode-ja.pdf")))
+  (opam "satysfi-fonts-junicode-doc.opam")
+  (dependencies ((fonts-junicode ()))))
