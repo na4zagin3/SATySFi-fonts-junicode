@@ -18,6 +18,8 @@ depends: [
   "satyrographos" {>= "0.0.2.6" & < "0.0.3"}
   "satysfi-dist"
   "satysfi-fonts-junicode" {= "%{version}%"}
+
+  "satysfi-lipsum"
 ]
 build: [
   ["satyrographos" "opam" "build"
